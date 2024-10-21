@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg,#ff00ff,#ba55d3,#9932cc,#9400d3,#9370d3,#7b68db);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 150px;
+    font-weight: 700;
+    color: #fff;
+}
+
+span{
+    display: inline-block;
+    opacity: 0;
+    transition: all 1.5s ease;
+    transform: translateX(60px) translateY(60px);
+}
+
+span.fade{
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
